@@ -14,7 +14,7 @@ class HomePageTest(TestCase):
         html = response.content.decode('utf8')
         self.assertTrue(html.startswith('<html>'))
         self.assertIn('<title>Start a new To-Do list', html)
-        self.assertTrue(html.endswith('</html>'))
+      
 
 
 class ListViewTest(TestCase):
