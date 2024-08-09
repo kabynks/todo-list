@@ -13,9 +13,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
     def setUp(self):
         '''установка'''
         self.browser = webdriver.Firefox()
-        staging_server = os.environ.get('STAGING_SERVER')
-        if staging_server:a
-            self.live_server_url = f'http://{staging_server}'
 
     def tearDown(self):
         '''демонтаж'''
@@ -35,7 +32,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         
     def test_can_start_a_list_for_one_user(self):
         '''тест: можно начать список и получить его позже'''
-        self.browser.get(self.live_server_url)
+        self.browser.get('http://91.218.141.79')
 
         # Она видит что заголовок и шапка страницы говорят о списках
         # неотложных дел
@@ -78,7 +75,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         # Удовлетворенная, она снова ложится спать
     def test_multiple_users_can_start_lists_at_different_urls(self):
         '''тест: пользователи могут добавлять свои списки в разных urls адресов'''
-        self.browser.get(self.live_server_url)
+        self.browser.get('http://91.218.141.79')
 
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Купить павлиньи перья')
@@ -91,7 +88,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
-        self.browser.get(self.live_server_url)
+        self.browser.get('http://91.218.141.79')
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Купить павлиньи перья', page_text)
         self.assertNotIn('Сделать мушку', page_text)
@@ -111,7 +108,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertIn('Купить молоко', page_text)
     def test_layout_and_styling(self):
         '''тест макета и стилевого оформления'''
-        self.browser.get(self.live_server_url)
+        self.browser.get('http://91.218.141.79')
         self.browser.set_window_size(1024, 768)
 
         inputbox = self.browser.find_element_by_id('id_new_item')
