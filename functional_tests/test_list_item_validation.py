@@ -19,7 +19,7 @@ class ItemValidationTest(FunctionalTest):
         # это срабатывает
         self.wait_for(lambda: self.assertEqual(
             self.browser.find_element_by_css_selector('.has-error').text,
-            "You cant have an empty list item"
+            "You can't have an empty list item"
         )
         )
         # Эдит снова пробует теперь с неким текстом для элемента, и это
@@ -34,7 +34,7 @@ class ItemValidationTest(FunctionalTest):
         # Она получает аналогичное предупреждение на странице списка
         self.wait_for(lambda: self.assertEqual(
             self.browser.find_element_by_css_selector('.has-error').text,
-            "You cant have an empty list item"
+            "You can't have an empty list item"
         )
         )
         # И она может его исправить, заполнив поле неким странице списка
@@ -42,4 +42,5 @@ class ItemValidationTest(FunctionalTest):
         self.browser.find_element_by_id('id_new_item').send_keys(Keys.ENTER)
         self.wait_for_row_in_list_table('1: Купить молоко')
         self.wait_for_row_in_list_table('2: Сделать чай')
-        self.fail('Закончить тест')
+   
+    
