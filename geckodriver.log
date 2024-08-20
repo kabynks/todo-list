@@ -8285,3 +8285,224 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 2024-08-16 08:00:40.350 plugin-container[4305:147501] nil host used in call to allowsSpecificHTTPSCertificateForHost
 2024-08-16 08:00:40.350 plugin-container[4305:147501] nil host used in call to allowsAnyHTTPSCertificateForHost:
 1723795241848	Marionette	INFO	Stopped listening on port 56331
+1724156788126	geckodriver	INFO	Listening on 127.0.0.1:50433
+1724156789124	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofiletmphsx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724156789762	Marionette	INFO	Marionette enabled
+2024-08-20 12:26:30.411 plugin-container[1673:23810] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:30.412 plugin-container[1673:23810] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:30.420 plugin-container[1673:23810] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:30.420 plugin-container[1673:23810] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:30.421 plugin-container[1673:23815] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:30.421 plugin-container[1673:23815] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156790499	Marionette	INFO	Listening on port 50444
+1724156790571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 12:26:33.598 plugin-container[1676:23985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:33.598 plugin-container[1676:23985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:33.604 plugin-container[1676:23985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:33.604 plugin-container[1676:23985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:33.617 plugin-container[1676:24000] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:33.617 plugin-container[1676:24000] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156795747	Marionette	INFO	Stopped listening on port 50444
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+1724156796997	geckodriver	INFO	Listening on 127.0.0.1:50470
+1724156798011	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofile59Ourt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724156798798	Marionette	INFO	Marionette enabled
+2024-08-20 12:26:39.388 plugin-container[1684:24266] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:39.389 plugin-container[1684:24266] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:39.397 plugin-container[1684:24266] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:39.397 plugin-container[1684:24266] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:39.398 plugin-container[1684:24277] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:39.398 plugin-container[1684:24277] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156799416	Marionette	INFO	Listening on port 50481
+1724156799730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 12:26:42.242 plugin-container[1687:24437] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:42.242 plugin-container[1687:24437] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:42.250 plugin-container[1687:24437] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:42.251 plugin-container[1687:24437] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:42.251 plugin-container[1687:24456] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:42.252 plugin-container[1687:24456] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156803548	Marionette	INFO	Stopped listening on port 50481
+JavaScript error: resource://gre/modules/CaptiveDetect.sys.mjs, line 20: : 
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+1724156804591	geckodriver	INFO	Listening on 127.0.0.1:50507
+1724156805604	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofileTa8p5q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724156806235	Marionette	INFO	Marionette enabled
+1724156806864	Marionette	INFO	Listening on port 50514
+2024-08-20 12:26:46.892 plugin-container[1695:24656] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:46.893 plugin-container[1695:24656] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:46.899 plugin-container[1695:24656] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:46.899 plugin-container[1695:24656] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:46.899 plugin-container[1695:24663] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:46.899 plugin-container[1695:24663] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156807146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 12:26:49.714 plugin-container[1698:24813] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:49.716 plugin-container[1698:24813] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:49.727 plugin-container[1698:24813] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:49.727 plugin-container[1698:24813] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:26:49.730 plugin-container[1698:24808] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:26:49.730 plugin-container[1698:24808] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156811428	Marionette	INFO	Stopped listening on port 50514
+console.error: (new StorageError("Storage error: Error: IndexedDB: main/fingerprinting-protection-overrides list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/RemoteSettingsClient.sys.mjs", 153))
+console.error: (new StorageError("Storage error: AbortError: IndexedDB: main/query-stripping list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsClient.sys.mjs", 153))
+1724156852778	geckodriver	INFO	Listening on 127.0.0.1:50545
+1724156853788	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofileUs66It"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724156854658	Marionette	INFO	Marionette enabled
+2024-08-20 12:27:35.289 plugin-container[1715:25363] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:35.289 plugin-container[1715:25363] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:35.306 plugin-container[1715:25363] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:35.306 plugin-container[1715:25363] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:35.360 plugin-container[1715:25361] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:35.360 plugin-container[1715:25361] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156855372	Marionette	INFO	Listening on port 50552
+1724156855683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 12:27:38.325 plugin-container[1718:25548] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:38.327 plugin-container[1718:25548] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:38.337 plugin-container[1718:25548] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:38.337 plugin-container[1718:25548] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:38.337 plugin-container[1718:25559] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:38.338 plugin-container[1718:25559] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156859966	Marionette	INFO	Stopped listening on port 50552
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+1724156860962	geckodriver	INFO	Listening on 127.0.0.1:50585
+1724156861975	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofileBTHusw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724156862581	Marionette	INFO	Marionette enabled
+1724156863360	Marionette	INFO	Listening on port 50592
+2024-08-20 12:27:43.589 plugin-container[1726:25811] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:43.589 plugin-container[1726:25811] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:43.598 plugin-container[1726:25811] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:43.598 plugin-container[1726:25811] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:43.600 plugin-container[1726:25818] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:43.600 plugin-container[1726:25818] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156863820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 12:27:46.882 plugin-container[1729:25977] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:46.882 plugin-container[1729:25977] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:46.891 plugin-container[1729:25977] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:46.891 plugin-container[1729:25977] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:46.892 plugin-container[1729:25982] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:46.892 plugin-container[1729:25982] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156868529	Marionette	INFO	Stopped listening on port 50592
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1724156869618	geckodriver	INFO	Listening on 127.0.0.1:50632
+1724156870630	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofilekwsukT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724156871239	Marionette	INFO	Marionette enabled
+1724156871883	Marionette	INFO	Listening on port 50639
+2024-08-20 12:27:51.905 plugin-container[1737:26210] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:51.905 plugin-container[1737:26210] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:51.912 plugin-container[1737:26210] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:51.912 plugin-container[1737:26210] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:51.913 plugin-container[1737:26215] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:51.913 plugin-container[1737:26215] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156872237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 12:27:54.839 plugin-container[1740:26369] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:54.839 plugin-container[1740:26369] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:54.847 plugin-container[1740:26369] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:54.847 plugin-container[1740:26369] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 12:27:54.848 plugin-container[1740:26458] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 12:27:54.848 plugin-container[1740:26458] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724156886980	Marionette	INFO	Stopped listening on port 50639
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1724159942088	geckodriver	INFO	Listening on 127.0.0.1:50905
+1724159943105	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofilecR8x54"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724159943693	Marionette	INFO	Marionette enabled
+1724159944341	Marionette	INFO	Listening on port 50912
+2024-08-20 13:19:04.356 plugin-container[2562:47347] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:04.357 plugin-container[2562:47347] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:04.363 plugin-container[2562:47347] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:04.363 plugin-container[2562:47347] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:04.364 plugin-container[2562:47362] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:04.364 plugin-container[2562:47362] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724159944607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 13:19:07.041 plugin-container[2565:47548] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:07.041 plugin-container[2565:47548] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:07.051 plugin-container[2565:47548] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:07.051 plugin-container[2565:47548] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:07.052 plugin-container[2565:47552] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:07.053 plugin-container[2565:47552] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724159948805	Marionette	INFO	Stopped listening on port 50912
+1724159949801	geckodriver	INFO	Listening on 127.0.0.1:50941
+1724159950821	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofilesYdr2V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724159951424	Marionette	INFO	Marionette enabled
+1724159952048	Marionette	INFO	Listening on port 50948
+2024-08-20 13:19:12.096 plugin-container[2573:47768] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:12.096 plugin-container[2573:47768] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:12.102 plugin-container[2573:47768] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:12.102 plugin-container[2573:47768] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:12.102 plugin-container[2573:47766] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:12.102 plugin-container[2573:47766] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724159952312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 13:19:14.761 plugin-container[2576:47935] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:14.761 plugin-container[2576:47935] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:14.770 plugin-container[2576:47935] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:14.770 plugin-container[2576:47935] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:14.771 plugin-container[2576:47940] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:14.771 plugin-container[2576:47940] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724159956608	Marionette	INFO	Stopped listening on port 50948
+1724159957705	geckodriver	INFO	Listening on 127.0.0.1:50977
+1724159958721	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofileP8NkPB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724159959521	Marionette	INFO	Marionette enabled
+2024-08-20 13:19:20.194 plugin-container[2584:48164] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:20.196 plugin-container[2584:48164] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:20.206 plugin-container[2584:48164] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:20.206 plugin-container[2584:48164] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:20.206 plugin-container[2584:48162] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:20.206 plugin-container[2584:48162] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724159960249	Marionette	INFO	Listening on port 50984
+1724159960579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 13:19:23.420 plugin-container[2587:48325] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:23.421 plugin-container[2587:48325] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:23.433 plugin-container[2587:48325] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:23.433 plugin-container[2587:48325] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:19:23.434 plugin-container[2587:48337] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:19:23.434 plugin-container[2587:48337] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724159975137	Marionette	INFO	Stopped listening on port 50984
+1724160031979	geckodriver	INFO	Listening on 127.0.0.1:51028
+1724160032995	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_2/q5f84w8x6832lzgl690w6qq40000gn/T/rust_mozprofileOkiyzY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724160033579	Marionette	INFO	Marionette enabled
+1724160034167	Marionette	INFO	Listening on port 51035
+2024-08-20 13:20:34.170 plugin-container[2609:49004] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:20:34.171 plugin-container[2609:49004] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:20:34.188 plugin-container[2609:49004] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:20:34.188 plugin-container[2609:49004] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:20:34.189 plugin-container[2609:49010] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:20:34.189 plugin-container[2609:49010] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724160034451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2024-08-20 13:20:36.965 plugin-container[2612:49155] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:20:36.965 plugin-container[2612:49155] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:20:36.974 plugin-container[2612:49155] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:20:36.975 plugin-container[2612:49155] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2024-08-20 13:20:36.975 plugin-container[2612:49165] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2024-08-20 13:20:36.975 plugin-container[2612:49165] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1724160038661	Marionette	INFO	Stopped listening on port 51035
